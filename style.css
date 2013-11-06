@@ -1,0 +1,20 @@
+* {
+	font-family: 'Oxygen', sans-serif;
+	text-align:center;
+}
+
+body {
+	background-color:Gold;	
+}
+
+div {
+	background-color:White;
+}
+
+.layoutWindows {
+	width:600px;
+	margin: 0 auto;
+	border-style:solid;
+	padding:10px;
+	border-width:1px;
+}

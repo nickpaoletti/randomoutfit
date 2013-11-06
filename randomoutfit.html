@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+	<title> Men's Random Outfit Generator</title>
+	<meta name="Author" content="Nick Paoletti" />
+	<script src="jquery-2.0.3.min.js"></script>
+	<script src="randomoutfit.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css"></style>
+</head>
+
+<body>
+	<h1>Men's Random Outfit Generator</h1>
+
+	<div class="layoutWindows">
+	<h2>Choose your sizes:</h2>
+		<span>What size do you usually wear in tops and jackets?</span><br>
+		<select id="size">
+			<option vlaue="XS">X-Small</option>
+			<option value="S">Small</option>
+			<option value="M">Medium</option>
+			<option value="L">Large</option>
+			<option value="XL">X-Large</option>
+		</select>
+
+		<br><span>And pants?</span><br>
+		<select id="pants">
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+			<option value="32">32</option>
+			<option value="33">33</option>
+			<option value="34">34</option>
+			<option value="35">35</option>
+			<option value="36">36</option>
+			<option value="37">37</option>
+			<option value="38">38</option>
+			<option value="39">39</option>
+			<option value="40">40</option>
+			<option value="41">41</option>
+			<option value="42">42</option>
+			<option value="43">43</option>
+			<option value="44">44</option>
+			<option value="46">46</option>
+			<option value="48">48</option>
+		</select>
+
+
+		<br><span>How about shoes?</span><br>
+		<select id="shoes">
+			<option value="5">5</option>
+			<option value="5.5">5.5</option>
+			<option value="6">6</option>
+			<option value="6.5">6.5</option>
+			<option value="7">7</option>
+			<option value="7.5">7.5</option>
+			<option value="8">8</option>
+			<option value="8.5">8.5</option>
+			<option value="9">9</option>
+			<option value="9.5">9.5</option>
+			<option value="10">10</option>
+			<option value="10.5">10.5</option>
+			<option value="11">11</option>
+			<option value="11.5">11.5</option>
+			<option value="12">12</option>
+			<option value="12.5">12.5</option>
+			<option value="13">13</option>
+		</select>
+
+		<br><button id="generateButton" type="button">Generate!</button>
+	</div>
+
+	<div class="layoutWindows">
+	<h2>Result</h2>
+		<div><h3>Outerwear:</h3>
+			<div id="outerwearImg">Nothing here yet. Try generating an outfit!</div></div>
+		<div><h3>Shirt:</h3>
+			<div id="shirtImg">Nothing here yet. Try generating an outfit!</div></div>
+		<div><h3>Pants:</h3>
+			<div id="pantsImg">Nothing here yet. Try generating an outfit!</div></div>
+		<div><h3>Shoes:</h3>
+			<div id="shoeImg">Nothing here yet. Try generating an outfit!</div></div>
+	</div>
+
+	<h3>Results provided by Gilt API</h3>
+	<span>App by Nick Paoletti</span>
+</body>
