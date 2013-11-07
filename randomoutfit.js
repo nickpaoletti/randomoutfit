@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 	//Given a product item, show details of the item, if there is an item. else, display message
 	var showImage = function(productData, divName){
-		if (productData.image_urls === 'undefined'){
+		if (typeof productData.image_urls === 'undefined'){
 			$('#' + divName).replaceWith('<div id="' + divName + '">No outerwear in that size found :(</div>');
 		}
 		else {
